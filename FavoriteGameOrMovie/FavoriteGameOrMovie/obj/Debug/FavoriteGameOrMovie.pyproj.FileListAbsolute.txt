@@ -1,0 +1,12 @@
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\obj\Debug\FavoriteGameOrMovie.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\obj\Debug\FavoriteGameOrMovie.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\obj\Debug\FavoriteGameOrMovie.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\FavoriteGameOrMovie.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\FavoriteGameOrMovie.exe
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\FavoriteGameOrMovie.dll
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\FavoriteGameOrMovie\FavoriteGameOrMovie\obj\Debug\FavoriteGameOrMovie.exe
