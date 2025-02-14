@@ -49,4 +49,4 @@ class MainForm(Form):
         msg = self._textBox1.Text
         form1 = Form1(self, msg)
         form1.Show()
-        self.Hide()
+        self.Hide
