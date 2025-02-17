@@ -97,7 +97,9 @@ class MainForm(Form):
     def Button1Click(self, sender, e):
         UC = str(self._textBox1.Text)
         
-        UC.find()
+        if UC.rfind() != -1:
+            self._label3.Text = str(UC)
+            
 
     def Button2Click(self, sender, e):
         self._label3.Text = ""
