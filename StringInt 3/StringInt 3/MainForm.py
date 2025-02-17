@@ -95,17 +95,9 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        # If at any time we encounter 2 
-        # same characters, return false
+        UC = str(self._textBox1.Text)
         
-        for i in range(len(self._textBox1.Text)):
-            for j in range(i + 1,len(self._textBox1.Text)): 
-                if(self._textBox1.Text[i] == self._textBox1.Text[j]):
-                    return self._label3.Text == "There are no unique letters"
- 
-        # If no duplicate characters 
-        # encountered, return true
-        return True
+        UC.find()
 
     def Button2Click(self, sender, e):
         self._label3.Text = ""
