@@ -1,0 +1,13 @@
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\Pg435 TicketSales.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\Pg435 TicketSales.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\Pg435 TicketSales.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435 TicketSales.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435_TicketSales.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435_TicketSales.PublicTicketSales.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435 TicketSales.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435 TicketSales.exe
