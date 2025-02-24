@@ -100,10 +100,16 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        pass
+        from PublicTicketSales import *
+        GT = PublicTicketSales()
+        GT.Show()
+        self.Hide()
 
     def Button2Click(self, sender, e):
-        pass
+        from StudentTicketSales import *
+        ST = StudentTicketSales()
+        ST.Show()
+        self.Hide()
 
     def Button3Click(self, sender, e):
         Application.Exit()

@@ -20,7 +20,7 @@
     <DebugInfo>True</DebugInfo>
     <StartArguments>-X:Debug Program.py</StartArguments>
     <StartWorkingDirectory>.\</StartWorkingDirectory>
-    <StartAction>Program</StartAction>
+    <StartAction>Project</StartAction>
     <StartProgram>C:\Program Files (x86)\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -73,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PublicTicketSales.resx">
       <DependentUpon>PublicTicketSales.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StudentTicketSales.resx">
+      <DependentUpon>StudentTicketSales.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />

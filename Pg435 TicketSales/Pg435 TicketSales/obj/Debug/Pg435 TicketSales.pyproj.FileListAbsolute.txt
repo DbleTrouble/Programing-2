@@ -11,3 +11,4 @@ C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\De
 C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435_TicketSales.PublicTicketSales.resources
 C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435 TicketSales.pyproj.GenerateResource.Cache
 C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435 TicketSales.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg435 TicketSales\Pg435 TicketSales\obj\Debug\Pg435_TicketSales.StudentTicketSales.resources
