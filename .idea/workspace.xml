@@ -5,26 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working">
-      <change afterPath="$PROJECT_DIR$/LP 3-12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/StudentTicketSales.resx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog52aclass.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prog54c.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiForms/MultiForms/MainForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/MultiForms/MultiForms/MainForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiForms/MultiForms/bin/Debug/MultiForms.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiForms/MultiForms/bin/Debug/MultiForms.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiForms/MultiForms/bin/Debug/MultiForms.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MultiForms/MultiForms/bin/Debug/MultiForms.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiForms/MultiForms/obj/Debug/MultiForms.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MultiForms/MultiForms/obj/Debug/MultiForms.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MultiForms/MultiForms/obj/Debug/MultiForms.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MultiForms/MultiForms/obj/Debug/MultiForms.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/MainForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/MainForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/Pg435 TicketSales.pyproj" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/Pg435 TicketSales.pyproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/PublicTicketSales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/PublicTicketSales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/StudentTicketSales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/StudentTicketSales.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.pyproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.pyproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.pyproj.GenerateResource.Cache" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.pyproj.GenerateResource.Cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encryptchat.py" beforeDir="false" afterPath="$PROJECT_DIR$/encryptchat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.pyproj.GenerateResource.Cache" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.pyproj.GenerateResource.Cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/MainForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/MainForm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.prog52aclass">
+  <component name="RunManager" selected="Python.prog54c">
     <configuration name="LP 3-12" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Programing 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -74,27 +73,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LP 3-12.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Template" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Programing 2" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Template.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,13 +144,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prog54c" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programing 2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prog54c.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prog52aclass" />
+        <item itemvalue="Python.prog54c" />
         <item itemvalue="Python.LP 3-12" />
+        <item itemvalue="Python.prog52aclass" />
         <item itemvalue="Python.multithreading" />
         <item itemvalue="Python.cmdlineargs" />
-        <item itemvalue="Python.Template" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739999292852</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="working">
+      <created>1740431975344</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1740431975344</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

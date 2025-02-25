@@ -96,9 +96,15 @@ class MainForm(Form):
 
     def Button1Click(self, sender, e):
         a = str(self._textBox1.Text)
-        b = a.find(len(a))
-        c = a.rfind(len(a))
+        ans = ""
         
+        for i in range(len(a)):
+            b = a.find(a[i])
+            c = a.rfind(a[i])
+            if b == c:
+                ans = a[i]
+                break
+        self._label3.Text = ans
         pass
 
     def Button2Click(self, sender, e):

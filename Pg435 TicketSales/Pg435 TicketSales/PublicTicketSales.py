@@ -226,12 +226,27 @@ class PublicTicketSales(Form):
 
     def Button1Click(self, sender, e):
         NumT = int(self._textBox1.Text)
+        taxrate = 0.06
+        total = 0.0
+        
         if self._radioButton1.Checked:
             A = NumT * 20
+            self._label5.Text = "$" + str(A)
+            self._label6.Text = "$" + str(A * taxrate)
+            self._label7.Text = "$" + str(A + (A * taxrate))
         elif self._radioButton2.Checked:
-            B = NumT *30
-        elif self._radioButton2.Checked:
-            pass
+            B = NumT * 15
+            self._label5.Text = "$" + str(B)
+            self._label6.Text = "$" + str(B * taxrate)
+            self._label7.Text = "$" + str(B + (B * taxrate))
+        elif self._radioButton3.Checked:
+            C = NumT * 10
+            self._label5.Text = "$" + str(C)
+            self._label6.Text = "$" + str(C * taxrate)
+            self._label7.Text = "$" + str(C + (C * taxrate))
+        
+        
+         
 
     def Button2Click(self, sender, e):
         self.myparent.Show()

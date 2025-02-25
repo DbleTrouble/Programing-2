@@ -101,13 +101,13 @@ class MainForm(Form):
 
     def Button1Click(self, sender, e):
         from PublicTicketSales import *
-        GT = PublicTicketSales()
+        GT = PublicTicketSales(self)
         GT.Show()
         self.Hide()
 
     def Button2Click(self, sender, e):
         from StudentTicketSales import *
-        ST = StudentTicketSales()
+        ST = StudentTicketSales(self)
         ST.Show()
         self.Hide()
 
