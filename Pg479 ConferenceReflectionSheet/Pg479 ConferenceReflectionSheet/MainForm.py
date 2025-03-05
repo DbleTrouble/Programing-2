@@ -7,7 +7,8 @@ from System.Windows.Forms import *
 class MainForm(Form):
     def __init__(self):
         self.InitializeComponent()
-    
+        self.Total = 0
+        
     def InitializeComponent(self):
         self._groupBox1 = System.Windows.Forms.GroupBox()
         self._textBox4 = System.Windows.Forms.TextBox()
@@ -96,7 +97,7 @@ class MainForm(Form):
         self._label8.Name = "label8"
         self._label8.Size = System.Drawing.Size(100, 23)
         self._label8.TabIndex = 7
-        self._label8.Text = "label8"
+        self._label8.Text = "Zip"
         self._label8.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label7
@@ -106,7 +107,7 @@ class MainForm(Form):
         self._label7.Name = "label7"
         self._label7.Size = System.Drawing.Size(100, 23)
         self._label7.TabIndex = 6
-        self._label7.Text = "label7"
+        self._label7.Text = "State"
         self._label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label6
@@ -116,7 +117,7 @@ class MainForm(Form):
         self._label6.Name = "label6"
         self._label6.Size = System.Drawing.Size(100, 23)
         self._label6.TabIndex = 5
-        self._label6.Text = "label6"
+        self._label6.Text = "Email"
         self._label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label5
@@ -126,7 +127,7 @@ class MainForm(Form):
         self._label5.Name = "label5"
         self._label5.Size = System.Drawing.Size(100, 23)
         self._label5.TabIndex = 4
-        self._label5.Text = "label5"
+        self._label5.Text = "Phone"
         self._label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label4
@@ -136,7 +137,7 @@ class MainForm(Form):
         self._label4.Name = "label4"
         self._label4.Size = System.Drawing.Size(100, 23)
         self._label4.TabIndex = 3
-        self._label4.Text = "label4"
+        self._label4.Text = "City"
         self._label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label3
@@ -146,7 +147,7 @@ class MainForm(Form):
         self._label3.Name = "label3"
         self._label3.Size = System.Drawing.Size(100, 23)
         self._label3.TabIndex = 2
-        self._label3.Text = "label3"
+        self._label3.Text = "Address"
         self._label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label2
@@ -156,7 +157,7 @@ class MainForm(Form):
         self._label2.Name = "label2"
         self._label2.Size = System.Drawing.Size(100, 23)
         self._label2.TabIndex = 1
-        self._label2.Text = "label2"
+        self._label2.Text = "Company"
         self._label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # label1
@@ -166,7 +167,7 @@ class MainForm(Form):
         self._label1.Name = "label1"
         self._label1.Size = System.Drawing.Size(100, 23)
         self._label1.TabIndex = 0
-        self._label1.Text = "label1"
+        self._label1.Text = "Name"
         self._label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         # 
         # textBox5
