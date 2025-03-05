@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working">
-      <change afterPath="$PROJECT_DIR$/prog54c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/MainForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/MainForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/PublicTicketSales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/PublicTicketSales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/StudentTicketSales.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/StudentTicketSales.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/bin/Debug/Pg435 TicketSales.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Pg435 TicketSales/Pg435 TicketSales/obj/Debug/Pg435 TicketSales.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/bin/Debug/Prog54c.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.pyproj.GenerateResource.Cache" beforeDir="false" afterPath="$PROJECT_DIR$/Prog54c/Prog54c/obj/Debug/Prog54c.pyproj.GenerateResource.Cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/MainForm.py" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/MainForm.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/bin/Debug/StringInt 3.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.dll" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/StringInt 3/StringInt 3/obj/Debug/StringInt 3.exe" afterDir="false" />
-    </list>
+    <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -226,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740431975344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="working">
+      <created>1740518082969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740518082969</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

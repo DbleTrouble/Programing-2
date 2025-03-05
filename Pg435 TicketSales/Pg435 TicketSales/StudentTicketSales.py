@@ -125,6 +125,7 @@ class StudentTicketSales(Form):
         self._button1.TabIndex = 3
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = True
+        self._button1.Click += self.Button1Click
         # 
         # button2
         # 
@@ -135,6 +136,7 @@ class StudentTicketSales(Form):
         self._button2.TabIndex = 4
         self._button2.Text = "Close"
         self._button2.UseVisualStyleBackColor = True
+        self._button2.Click += self.Button2Click
         # 
         # label7
         # 
@@ -173,6 +175,7 @@ class StudentTicketSales(Form):
         self.Controls.Add(self._groupBox1)
         self.Name = "StudentTicketSales"
         self.Text = "StudentTicketSales"
+        self.FormClosing += self.StudentTicketSalesFormClosing
         self._groupBox1.ResumeLayout(False)
         self._groupBox1.PerformLayout()
         self._groupBox3.ResumeLayout(False)
@@ -181,3 +184,20 @@ class StudentTicketSales(Form):
 
     
 
+
+    def Button1Click(self, sender, e):
+        NumT = int(self._textBox1.Text)
+        taxrate = 0.06
+        ST = NumT * 7
+        RT = ST * taxrate
+        
+        self._label8.Text = str(ST)
+        self._label6.Text = str(RT)
+        self._label7.Text = str(ST + RT)
+
+    def Button2Click(self, sender, e):
+        self.myparent.Show()
+        self.Close()
+
+    def StudentTicketSalesFormClosing(self, sender, e):
+        self.myparent.Show()

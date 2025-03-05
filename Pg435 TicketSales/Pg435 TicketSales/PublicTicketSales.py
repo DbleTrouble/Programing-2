@@ -227,7 +227,6 @@ class PublicTicketSales(Form):
     def Button1Click(self, sender, e):
         NumT = int(self._textBox1.Text)
         taxrate = 0.06
-        total = 0.0
         
         if self._radioButton1.Checked:
             A = NumT * 20
