@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "Pg484 DormAndMealPlans", "Pg484 DormAndMealPlans\Pg484 DormAndMealPlans.pyproj", "{7C99741E-78E2-40BA-89CC-0FB77D522D6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C99741E-78E2-40BA-89CC-0FB77D522D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C99741E-78E2-40BA-89CC-0FB77D522D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C99741E-78E2-40BA-89CC-0FB77D522D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C99741E-78E2-40BA-89CC-0FB77D522D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
