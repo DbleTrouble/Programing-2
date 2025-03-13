@@ -7,8 +7,8 @@ from System.Windows.Forms import *
 class MainForm(Form):
     def __init__(self):
         self.InitializeComponent()
+        self.Total = 0
         
-    
     def InitializeComponent(self):
         self._label2 = System.Windows.Forms.Label()
         self._label1 = System.Windows.Forms.Label()
@@ -86,8 +86,7 @@ class MainForm(Form):
 
 
 
-    def TotalFee(self):
-        Total = 0
+   
         
     def Button1Click(self, sender, e):
         from DormHalls import *

@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working">
-      <change afterPath="$PROJECT_DIR$/Langdat/prog213f.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReadFileTemplate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cl213.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prog213f.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,7 +47,7 @@
       <recent name="C:\Users\jacob.n\Desktop\Programing 2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.prog213f">
+  <component name="RunManager" selected="Python.cl213">
     <configuration name="ReadWrite" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Programing 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.prog213f" />
         <item itemvalue="Python.cl213" />
+        <item itemvalue="Python.prog213f" />
         <item itemvalue="Python.prog285b" />
         <item itemvalue="Python.cl285" />
         <item itemvalue="Python.ReadWrite" />
@@ -239,7 +235,21 @@
       <option name="project" value="LOCAL" />
       <updated>1741638337093</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="working">
+      <created>1741810961889</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741810961889</updated>
+    </task>
+    <task id="LOCAL-00011" summary="working">
+      <created>1741811322442</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741811322442</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

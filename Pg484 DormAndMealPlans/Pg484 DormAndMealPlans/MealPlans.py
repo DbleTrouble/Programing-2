@@ -14,7 +14,6 @@ class MealPlans(Form):
         self._radioButton1 = System.Windows.Forms.RadioButton()
         self._radioButton2 = System.Windows.Forms.RadioButton()
         self._radioButton3 = System.Windows.Forms.RadioButton()
-        self._radioButton4 = System.Windows.Forms.RadioButton()
         self._button1 = System.Windows.Forms.Button()
         self._button2 = System.Windows.Forms.Button()
         self.SuspendLayout()
@@ -28,7 +27,7 @@ class MealPlans(Form):
         self._radioButton1.Size = System.Drawing.Size(161, 24)
         self._radioButton1.TabIndex = 0
         self._radioButton1.TabStop = True
-        self._radioButton1.Text = "Allen Hall"
+        self._radioButton1.Text = "7 meals per week"
         self._radioButton1.UseVisualStyleBackColor = False
         # 
         # radioButton2
@@ -40,7 +39,7 @@ class MealPlans(Form):
         self._radioButton2.Size = System.Drawing.Size(161, 24)
         self._radioButton2.TabIndex = 1
         self._radioButton2.TabStop = True
-        self._radioButton2.Text = "Pike Hall"
+        self._radioButton2.Text = "14 meals per week"
         self._radioButton2.UseVisualStyleBackColor = False
         # 
         # radioButton3
@@ -52,20 +51,8 @@ class MealPlans(Form):
         self._radioButton3.Size = System.Drawing.Size(161, 24)
         self._radioButton3.TabIndex = 2
         self._radioButton3.TabStop = True
-        self._radioButton3.Text = "Farthing Hall"
+        self._radioButton3.Text = "Unlimited meals"
         self._radioButton3.UseVisualStyleBackColor = False
-        # 
-        # radioButton4
-        # 
-        self._radioButton4.BackColor = System.Drawing.Color.FromArgb(255, 192, 192)
-        self._radioButton4.Font = System.Drawing.Font("Microsoft Sans Serif", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._radioButton4.Location = System.Drawing.Point(13, 172)
-        self._radioButton4.Name = "radioButton4"
-        self._radioButton4.Size = System.Drawing.Size(161, 24)
-        self._radioButton4.TabIndex = 3
-        self._radioButton4.TabStop = True
-        self._radioButton4.Text = "University Suites"
-        self._radioButton4.UseVisualStyleBackColor = False
         # 
         # button1
         # 
@@ -81,7 +68,7 @@ class MealPlans(Form):
         # button2
         # 
         self._button2.Font = System.Drawing.Font("Microsoft Sans Serif", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button2.Location = System.Drawing.Point(215, 114)
+        self._button2.Location = System.Drawing.Point(215, 95)
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(166, 43)
         self._button2.TabIndex = 5
@@ -92,10 +79,9 @@ class MealPlans(Form):
         # MealPlans
         # 
         self.BackColor = System.Drawing.SystemColors.ActiveCaption
-        self.ClientSize = System.Drawing.Size(393, 221)
+        self.ClientSize = System.Drawing.Size(393, 159)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
-        self.Controls.Add(self._radioButton4)
         self.Controls.Add(self._radioButton3)
         self.Controls.Add(self._radioButton2)
         self.Controls.Add(self._radioButton1)
@@ -106,19 +92,29 @@ class MealPlans(Form):
 
 
     def MPTotal(self):
-        from MainForm import *
+        fee = 0
         if self._radioButton1.Checked:
-            Total += 0
+            fee = 0
+            fee += 560
+        elif self._radioButton2.Checked:
+            fee = 0
+            fee += 1095
+        elif self._radioButton3.Checked:
+            fee = 0
+            fee += 1500
+        
+        self.myparent.Total += fee
         
     def Button1Click(self, sender, e):
         self._radioButton1.Checked = False
         self._radioButton2.Checked = False
         self._radioButton3.Checked = False
-        self._radioButton4.Checked = False
 
     def Button2Click(self, sender, e):
+        self.MPTotal()
         self.myparent.Show()
         self.Close()
 
     def MealPlansFormClosing(self, sender, e):
+        self.myparent._label2.Text = "$" + str(self.myparent.Total) + " per semester"
         self.myparent.Show()
