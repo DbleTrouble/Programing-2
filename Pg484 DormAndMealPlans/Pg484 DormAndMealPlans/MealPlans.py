@@ -92,18 +92,12 @@ class MealPlans(Form):
 
 
     def MPTotal(self):
-        fee = 0
         if self._radioButton1.Checked:
-            fee = 0
-            fee += 560
+            self.myparent.Fee2 += 560
         elif self._radioButton2.Checked:
-            fee = 0
-            fee += 1095
+            self.myparent.Fee2 += 1095
         elif self._radioButton3.Checked:
-            fee = 0
-            fee += 1500
-        
-        self.myparent.Total += fee
+            self.myparent.Fee2 += 1500
         
     def Button1Click(self, sender, e):
         self._radioButton1.Checked = False
@@ -116,5 +110,5 @@ class MealPlans(Form):
         self.Close()
 
     def MealPlansFormClosing(self, sender, e):
-        self.myparent._label2.Text = "$" + str(self.myparent.Total) + " per semester"
+        self.myparent.FeeTotal()
         self.myparent.Show()

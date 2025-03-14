@@ -8,7 +8,8 @@ class MainForm(Form):
     def __init__(self):
         self.InitializeComponent()
         self.Total = 0
-        
+        self.Fee1 = 0
+        self.Fee2 = 0
     def InitializeComponent(self):
         self._label2 = System.Windows.Forms.Label()
         self._label1 = System.Windows.Forms.Label()
@@ -86,15 +87,19 @@ class MainForm(Form):
 
 
 
-   
+    def FeeTotal(self):
+        self.Total = self.Fee1 + self.Fee2
+        self._label2.Text ="$" + str(self.Total) + " per semester"
         
     def Button1Click(self, sender, e):
+        self.Fee1 = 0
         from DormHalls import *
         DH = DormHalls(self)
         DH.Show()
         self.Hide()
 
     def Button2Click(self, sender, e):
+        self.Fee2 = 0
         from MealPlans import *
         MP = MealPlans(self)
         MP.Show()

@@ -106,21 +106,16 @@ class DormHalls(Form):
 
 
     def DHTotal(self):
-        fee = 0
+        
         if self._radioButton1.Checked:
-            fee = 0
-            fee += 1500
+            self.myparent.Fee1 += 1500
         elif self._radioButton2.Checked:
-            fee = 0
-            fee += 1600
+            self.myparent.Fee1 += 1600
         elif self._radioButton3.Checked:
-            fee = 0
-            fee += 1200
+            self.myparent.Fee1 += 1200
         elif self._radioButton4.Checked:
-            fee = 0
-            fee += 1800
+            self.myparent.Fee1 += 1800
             
-        self.myparent.Total += fee
         
     def Button1Click(self, sender, e):
         self._radioButton1.Checked = False
@@ -134,5 +129,5 @@ class DormHalls(Form):
         self.Close()
 
     def DormHallsFormClosing(self, sender, e):
-        self.myparent._label2.Text = "$" + str(self.myparent.Total) + " per semester"
+        self.myparent.FeeTotal()
         self.myparent.Show()
