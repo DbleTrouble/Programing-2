@@ -8,6 +8,10 @@ def main():
 
     Int1 = float(input("Integer 1: "))
     Int2 = float(input("Integer 2: "))
+    print(str(a))
+    print(str(b))
+    print(str(c))
+    print(str(d))
     pass
 
 
