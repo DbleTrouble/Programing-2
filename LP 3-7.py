@@ -1,17 +1,22 @@
-def main():
-    def calculate(self):
-        a = Int1 / Int2
-        b = Int1 % Int2
+def calculate(x,y):
+        a = x / y
+        b = x % y
 
-        c = Int2 / Int1
-        d = Int2 % Int1
+        c = y / x
+        d = y % x
+        
+        return(a, b, c, d)
+
+
+def main():
+    
 
     Int1 = float(input("Integer 1: "))
     Int2 = float(input("Integer 2: "))
-    print(str(a))
-    print(str(b))
-    print(str(c))
-    print(str(d))
+    f = calculate(Int1,Int2)
+    print(f)
+    
+
     pass
 
 
