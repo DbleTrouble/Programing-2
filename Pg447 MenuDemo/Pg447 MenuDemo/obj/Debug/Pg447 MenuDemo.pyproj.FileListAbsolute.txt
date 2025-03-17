@@ -1,0 +1,12 @@
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\Pg447 MenuDemo.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\Pg447 MenuDemo.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\Pg447 MenuDemo.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\obj\Debug\Pg447 MenuDemo.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\obj\Debug\Pg447_MenuDemo.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\obj\Debug\Pg447 MenuDemo.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg447 MenuDemo\Pg447 MenuDemo\obj\Debug\Pg447 MenuDemo.exe

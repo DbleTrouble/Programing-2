@@ -1,0 +1,12 @@
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\StringInt 1.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\StringInt 1.exe
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\StringInt 1.dll
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\obj\Debug\StringInt 1.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\obj\Debug\StringInt_1.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\obj\Debug\StringInt 1.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\StringInt 1\StringInt 1\obj\Debug\StringInt 1.exe

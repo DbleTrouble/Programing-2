@@ -1,0 +1,14 @@
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\obj\Debug\Pg484 DormAndMealPlans.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\obj\Debug\Pg484_DormAndMealPlans.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\obj\Debug\Pg484 DormAndMealPlans.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\Pg484 DormAndMealPlans.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\Pg484 DormAndMealPlans.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\Pg484 DormAndMealPlans.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\obj\Debug\Pg484 DormAndMealPlans.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\obj\Debug\Pg484_DormAndMealPlans.MealPlans.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg484 DormAndMealPlans\Pg484 DormAndMealPlans\obj\Debug\Pg484_DormAndMealPlans.DormHalls.resources

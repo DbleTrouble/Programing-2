@@ -1,0 +1,12 @@
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\Pg485 ShadeDesigner.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\Pg485 ShadeDesigner.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\Pg485 ShadeDesigner.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\obj\Debug\Pg485 ShadeDesigner.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\obj\Debug\Pg485_ShadeDesigner.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\obj\Debug\Pg485 ShadeDesigner.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg485 ShadeDesigner\Pg485 ShadeDesigner\obj\Debug\Pg485 ShadeDesigner.exe

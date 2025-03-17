@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import rsa  # pip install rsa
 import socket
 import threading
@@ -48,3 +49,6 @@ try:
     send_thread = threading.Thread(target=send_msg, args=(client,)).start()
     recv_thread = threading.Thread(target=recv_msg, args=(client,)).start()
 except: pass
+=======
+
+>>>>>>> c10ad909e9495ca618f862cb6d70b6485913db5f
