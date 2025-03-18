@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working">
-      <change afterPath="$PROJECT_DIR$/Inheritance.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Langdat/prog701g.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prog701g/cl701g.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prog701g/prog701g.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LP 3-7.py" beforeDir="false" afterPath="$PROJECT_DIR$/LP 3-7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
       <recent name="C:\Users\jacob.n\Desktop\Programing 2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Inheritance">
+  <component name="RunManager" selected="Python.prog701g">
     <configuration name="Inheritance" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Programing 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="cl213" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="prog701g" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Programing 2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -142,11 +143,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Prog701g" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cl213.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Prog701g/prog701g.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prog701g" />
         <item itemvalue="Python.Inheritance" />
         <item itemvalue="Python.LP 3-7" />
         <item itemvalue="Python.LP 3-11" />
         <item itemvalue="Python.LP 3-12" />
-        <item itemvalue="Python.cl213" />
       </list>
     </recent_temporary>
   </component>
