@@ -8,3 +8,5 @@ C:\Users\jacob.n\Desktop\Programing 2\LP 3-2\LP 3-2\bin\Debug\Microsoft.Scriptin
 C:\Users\jacob.n\Desktop\Programing 2\LP 3-2\LP 3-2\bin\Debug\Microsoft.Scripting.Metadata.dll
 C:\Users\jacob.n\Desktop\Programing 2\LP 3-2\LP 3-2\obj\Debug\LP 3-2.pyprojResolveAssemblyReference.cache
 C:\Users\jacob.n\Desktop\Programing 2\LP 3-2\LP 3-2\obj\Debug\LP 3-2.exe
+C:\Users\jacob.n\Desktop\Programing 2\LP 3-2\LP 3-2\obj\Debug\LP_3_2.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\LP 3-2\LP 3-2\obj\Debug\LP 3-2.pyproj.GenerateResource.Cache
