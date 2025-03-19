@@ -84,7 +84,8 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        diameter = int(self._textBox1.Text)
-        thing = Class1(diame
-        self._label3.Text = str(self.cost)
+        self.diameter = int(self._textBox1.Text)
+        thing = Class1(self.diameter)
+        thing.calculate_cost()
+        self._label3.Text = str(thing.cost)
         pass

@@ -1,0 +1,14 @@
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\Pg486 AstronomyHelper.exe.config
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\Pg486 AstronomyHelper.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\Pg486 AstronomyHelper.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\IronPython.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\IronPython.Modules.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\Microsoft.Scripting.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486 AstronomyHelper.pyprojResolveAssemblyReference.cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486 AstronomyHelper.exe
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.MainForm.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Pluto.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486 AstronomyHelper.pyproj.GenerateResource.Cache
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Mercury.resources

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{3A99985F-65ED-4279-ABA1-4526E89CE8DE}</ProjectGuid>
+    <ProjectGuid>{06B9BBC6-AEA1-4ADD-9B5C-F38825530B5F}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <RootNamespace>LP_3_2</RootNamespace>
-    <AssemblyName>LP 3-2</AssemblyName>
+    <RootNamespace>Pg486_AstronomyHelper</RootNamespace>
+    <AssemblyName>Pg486 AstronomyHelper</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -59,9 +59,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.py" />
+    <Compile Include="Earth.py" />
+    <Compile Include="Jupiter.py" />
     <Compile Include="MainForm.py" />
+    <Compile Include="Mars.py" />
+    <Compile Include="Mercury.py" />
+    <Compile Include="Neptune.py" />
+    <Compile Include="Pluto.py" />
     <Compile Include="Program.py" />
+    <Compile Include="Saturn.py" />
+    <Compile Include="Uranus.py" />
+    <Compile Include="Venus.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -69,6 +77,12 @@
   <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mercury.resx">
+      <DependentUpon>Mercury.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pluto.resx">
+      <DependentUpon>Pluto.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
