@@ -12,6 +12,7 @@
       <change afterPath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Saturn.resx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Venus.resx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/prog54cclass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Earth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Earth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Jupiter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Jupiter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Mars.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pg486 AstronomyHelper/Pg486 AstronomyHelper/Mars.py" afterDir="false" />
@@ -299,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1742329165139</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="working">
+      <created>1742502494693</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1742502494693</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
