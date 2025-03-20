@@ -75,14 +75,35 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Earth.resx">
+      <DependentUpon>Earth.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Jupiter.resx">
+      <DependentUpon>Jupiter.py</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mars.resx">
+      <DependentUpon>Mars.py</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Mercury.resx">
       <DependentUpon>Mercury.py</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Neptune.resx">
+      <DependentUpon>Neptune.py</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pluto.resx">
       <DependentUpon>Pluto.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Saturn.resx">
+      <DependentUpon>Saturn.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uranus.resx">
+      <DependentUpon>Uranus.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venus.resx">
+      <DependentUpon>Venus.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />

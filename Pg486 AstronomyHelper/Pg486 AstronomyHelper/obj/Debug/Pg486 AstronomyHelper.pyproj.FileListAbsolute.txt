@@ -12,3 +12,10 @@ C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelpe
 C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Pluto.resources
 C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486 AstronomyHelper.pyproj.GenerateResource.Cache
 C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Mercury.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Earth.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Jupiter.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Mars.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Neptune.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Saturn.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Uranus.resources
+C:\Users\jacob.n\Desktop\Programing 2\Pg486 AstronomyHelper\Pg486 AstronomyHelper\obj\Debug\Pg486_AstronomyHelper.Venus.resources
