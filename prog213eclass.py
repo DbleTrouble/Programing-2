@@ -1,10 +1,9 @@
-from cl213f import ElectricBill
+from cl213e import Family
 
 def main():
     try:
-        bills = []
-        with open("langdat/prog213f.dat", 'r') as f:
-            for line in f:
+        with open("langdat/prog213e.dat", 'r') as f:
+        or line in f:
                 kwh = int(line)
                 if kwh != -999:
                     e_bill = ElectricBill(kwh)
@@ -19,4 +18,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

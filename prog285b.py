@@ -1,4 +1,4 @@
-from cl285 import Salesperson
+from cl285b import Salesperson
 
 
 def main():
