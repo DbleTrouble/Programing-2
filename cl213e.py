@@ -1,24 +1,26 @@
 class Family:
-    def __init__(self, age1, age2, age3, age4, age5):
+    def __init__(self, age):
         self.age = age
-        self._distribution = 0
-        self._percents = [0]*4
+        self.percent = 0.0
+        self.D = [D1, D2, D3, D4, D5]
+        D1 = 0
+        D2 = 0
 
-    def _get_percent(self, number):
-        return round((number/self._distribution) * 100, 2)
+    def calc(self):
+        if self.age < 20:
+            D1 += 1
+        elif 20 <= self.age <= 39:
+            D2 += 1
+        elif 40 <= self.age >= 59:
+            D3 += 1
+        elif 60 <= self.age >= 79:
+            D4 += 1
+        elif self.age > 79:
+            D5 += 1
 
-    def calculate(self):
-        self._budget = self.age1 + self.age2 + self.age3 + self.age4 + self.age5
-        self._percents[0] = self._get_percent(self.age1)
-        self._percents[1] = self._get_percent(self.age2)
-        self._percents[2] = self._get_percent(self.age3)
-        self._percents[3] = self._get_percent(self.age4)
-        self._percents[4] = self._get_percent(self.age5)
-
-    def display(self):
-        print("Task\t\t% Time")
-        print(f"age1:\t{self._percents[0]}%")
-        print(f"age2:\t\t{self._percents[1]}%")
-        print(f"age3:\t{self._percents[2]}%")
-        print(f"age4:\t{self._percents[3]}%")
-        print(f"age5:\t{self._percents[4]}%")
+    def __str__(self):
+        print(f"The Distribution of {self.age} is ${D1:.2f}")
+        print(f"The Distribution of {self.age} is ${D2:.2f}")
+        print(f"The Distribution of {self.age} is ${D3:.2f}")
+        print(f"The Distribution of {self.age} is ${D4:.2f}")
+        print(f"The Distribution of {self.age} is ${D5:.2f}")
