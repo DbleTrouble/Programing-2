@@ -1,26 +1,43 @@
 class Family:
-    def __init__(self, age):
-        self.age = age
-        self.percent = 0.0
-        self.D = [D1, D2, D3, D4, D5]
-        D1 = 0
-        D2 = 0
+    def __init__(self, ages):
+        self.ages = []
+        self._budget = 0
+        self._percents = [0]*5  # [0,0,0,0]
 
-    def calc(self):
-        if self.age < 20:
-            D1 += 1
-        elif 20 <= self.age <= 39:
-            D2 += 1
-        elif 40 <= self.age >= 59:
-            D3 += 1
-        elif 60 <= self.age >= 79:
-            D4 += 1
-        elif self.age > 79:
-            D5 += 1
+    def _get_percent(self, number):
+        return round((number/self._budget) * 100, 2)
 
-    def __str__(self):
-        print(f"The Distribution of {self.age} is ${D1:.2f}")
-        print(f"The Distribution of {self.age} is ${D2:.2f}")
-        print(f"The Distribution of {self.age} is ${D3:.2f}")
-        print(f"The Distribution of {self.age} is ${D4:.2f}")
-        print(f"The Distribution of {self.age} is ${D5:.2f}")
+    def calculate(self):
+        for self.age.append([1:5])
+        self._budget = self.ages1 + self.ages2 + self.ages3 + self.ages4 + self.ages5
+        self._percents[0] = self._get_percent(self.ages1)
+        self._percents[1] = self._get_percent(self.ages2)
+        self._percents[2] = self._get_percent(self.ages3)
+        self._percents[3] = self._get_percent(self.ages4)
+        self._percents[4] = self._get_percent(self.ages5)
+
+    def display(self):
+        print("Percentage")
+        print(f"Age < 20:\t{self._percents[0]}%")
+        print(f"Age 20 - 39:\t\t{self._percents[1]}%")
+        print(f"Age 40 - 59:\t{self._percents[2]}%")
+        print(f"Age 60 - 79:\t{self._percents[3]}%")
+        print(f"Age > 79:\t{self._percents[4]}%")
+
+def main():
+    print("Enter the following distribution:\n")
+    age1 = float(input("Age < 20: "))
+    age2 = float(input("Age 20 - 39: "))
+    age3 = float(input("Age 40 - 59: "))
+    age4 = float(input("Age 60 - 79: "))
+    age5 = float(input("Age > 79: "))
+    print()
+
+    # Make a new 'Budget' object, pass in the numbers to the constructor
+    spending = Family(ages1, ages2, agse3, ages4, ages5)
+    spending.calculate()
+    spending.display()
+    pass
+
+if __name__ == "__main__":
+    main()
