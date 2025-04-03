@@ -1,7 +1,8 @@
 def main():
     try:
         with open("FILENAME", 'r') as f:
-        ... # TODO: replace (for line in f: or lines = f.readlines())
+            for line in f:
+
     except OSError as e:
         print("Error:", e)
     pass
