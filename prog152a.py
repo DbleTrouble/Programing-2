@@ -1,15 +1,19 @@
 import sys
 sys.setrecursionlimit(5000)
 
-def fact_loop(n):
-    product = 1
-    for num in range(3, 9669, -3):
-        product += num
-    return product
+# def fact_loop(x):
+#     x = 9669
+#     y = 0
+#     if x != 0:
+#         x -= 3
+#         y += x
+#         return y + fact_loop(x-3)
 
-# def fact(n):
-#     if n <= 1: return 1  # Base/Ending Case
-#     return n * fact(n-1) # Recursive Case
+def fact(n):
+    if n >= 9669: return "Error"  # Base/Ending Case
+    return n + fact(n+3) # Recursive Case
+
+
 
 def main():
     num = int(input("Enter a number: "))
@@ -17,6 +21,9 @@ def main():
         num_fact = fact(num)
         print(f"{num}! = {num_fact}")
         num = int(input("Enter a number: "))
+    # fl = fact_loop(3)
+    # print(f"The sum of the multiples of 3 to 9669 = {fl}")
+
 
 if __name__ == '__main__':
     main()
