@@ -19,7 +19,7 @@ namespace HelloName
             Console.Write("Enter your age: ");
             // int age = Convert.ToInt32(Console.ReadLine());
             int age = int.Parse(Console.ReadLine());
-            Console.WriteLine("Hello, " + age = " years old");
+            Console.WriteLine("Hello, " + age + " years old");
 
             Console.ReadKey(); // or ReadLine();
         }

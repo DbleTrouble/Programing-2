@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working">
-      <change afterPath="$PROJECT_DIR$/cl701g.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog701g.py" beforeDir="false" afterPath="$PROJECT_DIR$/prog701g.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloName/HelloName/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/HelloName/HelloName/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

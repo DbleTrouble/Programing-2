@@ -4,7 +4,7 @@ from cl701g import *
 def main():
     try:
         people: list[Person] = []
-        with open("../Langdat/prog701g.dat", 'r') as f:
+        with open("../langdat/prog701g.dat", 'r') as f:
             num = int(f.readline())
             while num != 99:
                 fn = f.readline()
