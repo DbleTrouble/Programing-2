@@ -1,40 +1,41 @@
-from cl701g import *
+from cl702q import *
 
 
 def main():
     try:
-        people: list[Person] = []
+        vehicle: list[Vehicle] = []
         with open("langdat/prog701g.dat", 'r') as f:
             num = int(f.readline())
             while num != 99:
-                fn = f.readline()
-                ln = f.readline()
+                na = f.readline()
+                tr = f.readline()
+                va = f.readline()
                 if num == 1:
-                    gpa = float(f.readline())
-                    p = Student(fn, ln, gpa)
-                    people.append(p)
+                    mw = float(f.readline())
+                    v = Car(na, tr, va, mw)
+                    vehicle.append(v)
                 elif num == 2:
-                    num_stu = int(f.readline())
-                    p = Teacher(fn, ln, num_stu)
-                    people.append(p)
+                    mpd = float(f.readline())
+                    v = Truck(na, tr, va, mpd)
+                    vehicle.append(v)
                 elif num == 3:
-                    fav_word = f.readline().strip()
-                    p = Admin(fn, ln, fav_word)
-                    people.append(p)
+                    hc = f.readline().strip()
+                    v = Bus(na, tr, va, hc)
+                    vehicle.append(v)
                 num = int(f.readline())
             tot = 0.0
             cnt = 0
             tot_stus = 0
             large = ""
             small = "ljksdhfgkjdshgkjdjkhgkjsdkjdvbkjsbviuewbuidsbjkbzlliubwubi"
-            for person in people:
-                if isinstance(person, Student):
-                    tot += person.gpa
+            for person in vehicle:
+                if isinstance(vehicle, Car):
+                    tot += vehicle.mw
                     cnt += 1
-                elif isinstance(person, Teacher):
-                    tot_stus += person.num_stu
-                elif isinstance(person, Admin):
-                    fw = person.fav_word
+                elif isinstance(vehicle, Truck):
+                    tot_stus += vehicle.mpd
+                elif isinstance(vehicle, Bus):
+                    fw = vehicle.hc
                     if len(fw) > len(large):
                         large = fw
                     if len(fw) < len(small):
