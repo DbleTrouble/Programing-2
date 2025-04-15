@@ -34,3 +34,6 @@ def main():
     mat_max = max_matrices(mat1, mat2)
     print("\nLargest Elements:")
     print_matrix(mat_max)
+
+if __name__ == "__main__":
+    main()

@@ -20,8 +20,9 @@ class Truck(Vehicle):
     def __init__(self, na, tr, va, mpd):
         super().__init__(na, tr, va)
         self.mpd = mpd
-        sv = mpd * .25
-        va += 50000 - sv
+        sv = 0
+        sv += mpd * .25
+        va = 50000 - sv
         print(na)
         print(tr)
         print(va)

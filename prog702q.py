@@ -8,8 +8,8 @@ def main():
             num = int(f.readline())
             while num != 99:
                 na = f.readline()
-                tr = f.readline()
-                va = f.readline()
+                tr = int(f.readline())
+                va = float(f.readline())
                 if num == 1:
                     v = Car(na, tr, va,)
                     vehicle.append(v)
