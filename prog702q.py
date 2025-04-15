@@ -4,11 +4,11 @@ from cl702q import *
 def main():
     try:
         vehicle: list[Vehicle] = []
-        with open("langdat/prog701g.dat", 'r') as f:
+        with open("langdat/prog702q.txt", 'r') as f:
             num = int(f.readline())
             while num != 99:
                 na = f.readline()
-                tr = int(f.readline())
+                tr = f.readline()
                 va = float(f.readline())
                 if num == 1:
                     v = Car(na, tr, va,)
