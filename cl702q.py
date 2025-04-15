@@ -5,7 +5,7 @@ class Vehicle:
         self._value = va
 
     def get_vehicles(self):
-        return self._name + " " + self._tire + " " + self._value
+        return self._name + self._tire + self._value
 
 
 class Car(Vehicle):

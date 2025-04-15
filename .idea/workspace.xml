@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working" />
+    <list default="true" id="ddb490b0-89cb-41a1-a34e-c6c95a463410" name="Changes" comment="working">
+      <change afterPath="$PROJECT_DIR$/prog464d.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharp/CSharp.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CSharp/CSharp.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CSharp/FavoriteClub/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CSharp/FavoriteClub/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cl702q.py" beforeDir="false" afterPath="$PROJECT_DIR$/cl702q.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog702q.py" beforeDir="false" afterPath="$PROJECT_DIR$/prog702q.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
