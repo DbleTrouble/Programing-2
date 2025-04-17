@@ -16,6 +16,9 @@ def max_matrices(mat1, mat2):
             mat_out[r][c] = max(mat1[r][c], mat2[r][c])
     return mat_out
 
+def transpose(mat):
+    
+
 def main():
     mat1 = []
     mat2 = []
