@@ -36,7 +36,7 @@ def main():
         mat2.append(row2)
     print("Matrix 1:")
     print_matrix(mat1)
-    print("Matrix 2:")
+    print("\nMatrix 2:")
     print_matrix(mat2)
     mat_max = max_matrices(mat1, mat2)
     print("\nLargest Elements:")
