@@ -16,12 +16,21 @@ def max_matrices(mat1, mat2):
             mat_out[r][c] = max(mat1[r][c], mat2[r][c])
     return mat_out
 
-def transpose(mat):
-    for colum in mat:
-        for row in mat:
-            for num in row:
-                print(f"{num:3d} ", end="")
-            print()
+def transpose(mat1, mat2):
+    rows = len(mat1)
+    cols = len(mat1[0])
+    for r in range(rows):
+        for c in range(cols):
+            temp = mat1[r][c]
+            mat1[r][c] = mat1[c][r]
+            mat1[c][r] = temp
+    # rows2 = len(mat2)
+    # cols2 = len(mat2[0])
+    # for r2 in range(rows2):
+    #     for c2 in range(cols2):
+    #         temp2 = mat2[r][c]
+    #         mat2[r][c] = mat2[c][r]
+    #         mat2[c][r] = temp2
 
 def main():
     mat1 = []
@@ -42,7 +51,7 @@ def main():
     print("\nLargest Elements:")
     print_matrix(mat_max)
     print("\nTransposed:")
-    print(transpose(mat_max))
+    print(transpose(mat1, mat2))
 
 if __name__ == "__main__":
     main()
