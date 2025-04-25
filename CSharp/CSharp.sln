@@ -33,6 +33,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog273 BookClubPoints", "p
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog266 Form", "prog266 Form\prog266 Form.csproj", "{91863B96-BA10-47E7-803E-955DD4C9CD96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog273 BookClubPoints Form", "prog273 BookClubPoints Form\prog273 BookClubPoints Form.csproj", "{B7EF9D44-23BD-481A-9BA6-58F59C9CC177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog273 MassAndWeight Form", "prog273 MassAndWeight Form\prog273 MassAndWeight Form.csproj", "{F285396C-1FCB-404B-AE57-488DA8D5BD09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog535 CatchMe Form", "prog535 CatchMe Form\prog535 CatchMe Form.csproj", "{578D46C3-983A-493D-8DF8-85D77BCB5815}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +105,18 @@ Global
 		{91863B96-BA10-47E7-803E-955DD4C9CD96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91863B96-BA10-47E7-803E-955DD4C9CD96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91863B96-BA10-47E7-803E-955DD4C9CD96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EF9D44-23BD-481A-9BA6-58F59C9CC177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EF9D44-23BD-481A-9BA6-58F59C9CC177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EF9D44-23BD-481A-9BA6-58F59C9CC177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EF9D44-23BD-481A-9BA6-58F59C9CC177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F285396C-1FCB-404B-AE57-488DA8D5BD09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F285396C-1FCB-404B-AE57-488DA8D5BD09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F285396C-1FCB-404B-AE57-488DA8D5BD09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F285396C-1FCB-404B-AE57-488DA8D5BD09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
