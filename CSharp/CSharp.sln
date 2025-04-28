@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog273 MassAndWeight Form"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog535 CatchMe Form", "prog535 CatchMe Form\prog535 CatchMe Form.csproj", "{578D46C3-983A-493D-8DF8-85D77BCB5815}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog122a Form", "prog122a Form\prog122a Form.csproj", "{7E36B643-51AB-4170-A0E1-96207DF8722C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog310a Form", "prog310a Form\prog310a Form.csproj", "{53BBC97F-75E1-4C22-8E02-6157115D7FBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +121,14 @@ Global
 		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{578D46C3-983A-493D-8DF8-85D77BCB5815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E36B643-51AB-4170-A0E1-96207DF8722C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E36B643-51AB-4170-A0E1-96207DF8722C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E36B643-51AB-4170-A0E1-96207DF8722C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E36B643-51AB-4170-A0E1-96207DF8722C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BBC97F-75E1-4C22-8E02-6157115D7FBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BBC97F-75E1-4C22-8E02-6157115D7FBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BBC97F-75E1-4C22-8E02-6157115D7FBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BBC97F-75E1-4C22-8E02-6157115D7FBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
