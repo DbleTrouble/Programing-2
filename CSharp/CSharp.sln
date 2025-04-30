@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog122b Form", "prog122b F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog347 Sum Form", "prog347 Sum Form\prog347 Sum Form.csproj", "{77474C76-DA3B-4074-9F5A-84C59BF445F7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog435 TicketSales Form", "prog435 TicketSales Form\prog435 TicketSales Form.csproj", "{16F7BDA5-15C2-452A-B4B7-1F51031A96DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{77474C76-DA3B-4074-9F5A-84C59BF445F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77474C76-DA3B-4074-9F5A-84C59BF445F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77474C76-DA3B-4074-9F5A-84C59BF445F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F7BDA5-15C2-452A-B4B7-1F51031A96DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F7BDA5-15C2-452A-B4B7-1F51031A96DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F7BDA5-15C2-452A-B4B7-1F51031A96DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F7BDA5-15C2-452A-B4B7-1F51031A96DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
