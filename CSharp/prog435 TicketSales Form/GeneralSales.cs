@@ -49,5 +49,13 @@ namespace prog435_TicketSales_Form
             label6.Text = "$" + TA;
             label7.Text = "$" + TC;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 origin = new Form1();
+            origin.Show();
+            this.Close();
+
+        }
     }
 }

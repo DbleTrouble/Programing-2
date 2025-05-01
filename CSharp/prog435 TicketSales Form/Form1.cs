@@ -19,12 +19,16 @@ namespace prog435_TicketSales_Form
 
         private void button1_Click(object sender, EventArgs e)
         {
-            GeneralSales
+            GeneralSales gs = new GeneralSales();
+            gs.Show();
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            StudentSales ss = new StudentSales();
+            ss.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
