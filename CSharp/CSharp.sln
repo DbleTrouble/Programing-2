@@ -51,6 +51,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog435 TicketSales Form", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWithFunctions", "ConsoleApplication1\CalcWithFunctions.csproj", "{C9A38463-07FA-41E3-9C8A-A73307F5B662}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog366b", "prog366b\prog366b.csproj", "{D33E7364-8D08-496D-BA09-1D18680D9A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final Programing 2 Project", "Final Programing 2 Project\Final Programing 2 Project.csproj", "{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +157,14 @@ Global
 		{C9A38463-07FA-41E3-9C8A-A73307F5B662}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9A38463-07FA-41E3-9C8A-A73307F5B662}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9A38463-07FA-41E3-9C8A-A73307F5B662}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D33E7364-8D08-496D-BA09-1D18680D9A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D33E7364-8D08-496D-BA09-1D18680D9A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D33E7364-8D08-496D-BA09-1D18680D9A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D33E7364-8D08-496D-BA09-1D18680D9A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
