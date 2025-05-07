@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}</ProjectGuid>
+    <ProjectGuid>{CEFFB77E-55DC-4AF2-98DC-E0FCB680D546}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Final_Programing_2_Project</RootNamespace>
-    <AssemblyName>Final Programing 2 Project</AssemblyName>
+    <RootNamespace>prog334_LoanCalculator_Form</RootNamespace>
+    <AssemblyName>prog334 LoanCalculator Form</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -50,19 +50,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Notesheet.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Notesheet.Designer.cs">
-      <DependentUpon>Notesheet.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Notesheet.resx">
-      <DependentUpon>Notesheet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

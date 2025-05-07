@@ -1,6 +1,6 @@
 ﻿namespace Final_Programing_2_Project
 {
-    partial class NewNotesheet
+    partial class Notesheet
     {
         /// <summary>
         /// Required designer variable.
@@ -30,13 +30,13 @@
         {
             this.SuspendLayout();
             // 
-            // NewNotesheet
+            // Notesheet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Name = "NewNotesheet";
-            this.Text = "Notesheets";
+            this.Name = "Notesheet";
+            this.Text = "Notesheet";
             this.ResumeLayout(false);
 
         }

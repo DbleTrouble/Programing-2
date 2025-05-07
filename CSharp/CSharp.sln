@@ -55,6 +55,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog366b", "prog366b\prog36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Final Programing 2 Project", "Final Programing 2 Project\Final Programing 2 Project.csproj", "{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog122d Form", "prog122d Form\prog122d Form.csproj", "{7A50E0F1-2C30-4037-AB7F-BD65D2C0B477}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog334 LoanCalculator Form", "prog334 LoanCalculator Form\prog334 LoanCalculator Form.csproj", "{CEFFB77E-55DC-4AF2-98DC-E0FCB680D546}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +169,14 @@ Global
 		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DEC9C6B-6E63-4145-84F3-ADBA83D0AF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A50E0F1-2C30-4037-AB7F-BD65D2C0B477}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A50E0F1-2C30-4037-AB7F-BD65D2C0B477}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A50E0F1-2C30-4037-AB7F-BD65D2C0B477}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A50E0F1-2C30-4037-AB7F-BD65D2C0B477}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEFFB77E-55DC-4AF2-98DC-E0FCB680D546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEFFB77E-55DC-4AF2-98DC-E0FCB680D546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEFFB77E-55DC-4AF2-98DC-E0FCB680D546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEFFB77E-55DC-4AF2-98DC-E0FCB680D546}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Final_Programing_2_Project
 {
-    public partial class NewNotesheet : Form
+    public partial class Notesheet : Form
     {
-        public NewNotesheet()
+        public Notesheet()
         {
             InitializeComponent();
         }
