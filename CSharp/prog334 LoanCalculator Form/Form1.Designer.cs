@@ -72,6 +72,7 @@
             this.txtMonths.Name = "txtMonths";
             this.txtMonths.Size = new System.Drawing.Size(100, 21);
             this.txtMonths.TabIndex = 5;
+            this.txtMonths.Validating += new System.ComponentModel.CancelEventHandler(this.txtMonths_Validating);
             // 
             // txtDownPayment
             // 
@@ -79,6 +80,7 @@
             this.txtDownPayment.Name = "txtDownPayment";
             this.txtDownPayment.Size = new System.Drawing.Size(100, 21);
             this.txtDownPayment.TabIndex = 4;
+            this.txtDownPayment.Validating += new System.ComponentModel.CancelEventHandler(this.txtDownPayment_Validating);
             // 
             // txtCost
             // 
@@ -86,6 +88,7 @@
             this.txtCost.Name = "txtCost";
             this.txtCost.Size = new System.Drawing.Size(100, 21);
             this.txtCost.TabIndex = 3;
+            this.txtCost.Validating += new System.ComponentModel.CancelEventHandler(this.txtCost_Validating);
             // 
             // label3
             // 

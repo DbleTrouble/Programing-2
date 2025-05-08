@@ -126,5 +126,79 @@ namespace prog334_LoanCalculator_Form
                 lblAnnInt.Text = dblUsed_Rate.ToString(".00%");
             }
         }
+
+        private void txtCost_Validating(object sender, CancelEventArgs e)
+        {
+            // Validates that a number has been entered int txtCost
+            double _x = 0;
+            if (!double.TryParse(txtCost.Text, out _x))
+            {
+                MessageBox.Show("Cost must be a number.", "Invalid Vehicle Cost");
+
+                // Select the existing text in the text box.
+                txtCost.SelectAll();
+                //Set e.Cancel to true so the focus will stay in this control
+                e.Cancel = true;
+            }
+            else
+            {
+                e.Cancel = false;
+            }
+        }
+
+        private void txtDownPayment_Validating(object sender, CancelEventArgs e)
+        {
+            // Validates that a number has been entered int txtCost
+            double _x = 0;
+            if (!double.TryParse(txtCost.Text, out _x))
+            {
+                MessageBox.Show("Cost must be a number.", "Invalid Vehicle Cost");
+
+                // Select the existing text in the text box.
+                txtCost.SelectAll();
+                //Set e.Cancel to true so the focus will stay in this control
+                e.Cancel = true;
+            }
+            else
+            {
+                e.Cancel = false;
+            }
+        }
+
+        private void txtMonths_Validating(object sender, CancelEventArgs e)
+        {
+            // Validates that a number has been entered int txtCost
+            double _x = 0;
+            if (!double.TryParse(txtCost.Text, out _x))
+            {
+                MessageBox.Show("Cost must be a number.", "Invalid Vehicle Cost");
+
+                // Select the existing text in the text box.
+                txtCost.SelectAll();
+                //Set e.Cancel to true so the focus will stay in this control
+                e.Cancel = true;
+            }
+            else
+            {
+                int intMonths = int.Parse(txtMonths.Text);
+
+                if (intMonths < intMin_Months || intMonths > intMax_Months)
+                {
+                    MessageBox.Show("Months must be in the range " + intMin_Months + " - " + intMax_Months, "Error");
+
+                    // Select the existing text in the text box
+                    txtMonths.SelectAll();
+
+                    // Set e.Cancel to true so the focus will stay in this control
+                    e.Cancel = true;
+                }
+                else
+                {
+                    e.Cancel = false;
+                }
+
+            }
+        }
     }
 }
+
