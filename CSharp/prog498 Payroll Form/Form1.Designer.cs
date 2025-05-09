@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lstOutput = new System.Windows.Forms.ListBox();
+            this.btnCalcPay = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // listBox1
+            // lstOutput
             // 
-            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(13, 13);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(259, 180);
-            this.listBox1.TabIndex = 0;
+            this.lstOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstOutput.FormattingEnabled = true;
+            this.lstOutput.ItemHeight = 16;
+            this.lstOutput.Location = new System.Drawing.Point(13, 13);
+            this.lstOutput.Name = "lstOutput";
+            this.lstOutput.Size = new System.Drawing.Size(259, 180);
+            this.lstOutput.TabIndex = 0;
             // 
-            // button1
+            // btnCalcPay
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(13, 192);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(126, 57);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnCalcPay.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnCalcPay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalcPay.Location = new System.Drawing.Point(13, 192);
+            this.btnCalcPay.Name = "btnCalcPay";
+            this.btnCalcPay.Size = new System.Drawing.Size(126, 57);
+            this.btnCalcPay.TabIndex = 1;
+            this.btnCalcPay.Text = "Calculate";
+            this.btnCalcPay.UseVisualStyleBackColor = false;
+            this.btnCalcPay.Click += new System.EventHandler(this.btnCalcPay_Click);
             // 
             // button2
             // 
@@ -65,6 +65,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -73,8 +74,8 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.btnCalcPay);
+            this.Controls.Add(this.lstOutput);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -83,8 +84,8 @@
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox lstOutput;
+        private System.Windows.Forms.Button btnCalcPay;
         private System.Windows.Forms.Button button2;
     }
 }

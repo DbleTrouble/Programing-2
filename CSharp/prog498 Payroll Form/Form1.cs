@@ -20,7 +20,7 @@ namespace prog498_Payroll_Form
         const int intMax_Employees = 5;
         const decimal decHourly_Pay_Rate = 6.0m;
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnCalcPay_Click(object sender, EventArgs e)
         {
             // Calc & Display Gross Pay Earned by Employees
             int[] intHours = new int[intMax_Employees]; // an array [0,0,0,0,0]
@@ -37,7 +37,17 @@ namespace prog498_Payroll_Form
                 }
                 intHours[Count] = EmpHours;
             }
-            // TODO: the rest
+            // Calculate and display each employee's gross pay.
+            lstOutput.Items.Clear();
+            for (Count = 0; Count < intMax_Employees; Count++) {
+                EmpPay = intHours[Count] * decHourly_Pay_Rate; 
+                lstOutput.Items.Add("Employee " + (Count + 1).ToString() + " earned " + EmpPay.ToString("$.00"));
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
