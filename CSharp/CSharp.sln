@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrInterview 16", "StrInter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prog514 SalesData Form", "prog514 SalesData Form\prog514 SalesData Form.csproj", "{4CA52CD0-70CA-4D05-95EA-E1C3A1A6F00C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListDemo", "ListDemo\ListDemo.csproj", "{8A2088CD-B717-404C-8C1D-95BA23EDA875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{4CA52CD0-70CA-4D05-95EA-E1C3A1A6F00C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CA52CD0-70CA-4D05-95EA-E1C3A1A6F00C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CA52CD0-70CA-4D05-95EA-E1C3A1A6F00C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2088CD-B717-404C-8C1D-95BA23EDA875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2088CD-B717-404C-8C1D-95BA23EDA875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2088CD-B717-404C-8C1D-95BA23EDA875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2088CD-B717-404C-8C1D-95BA23EDA875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
