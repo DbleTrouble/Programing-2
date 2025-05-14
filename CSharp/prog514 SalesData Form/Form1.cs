@@ -18,19 +18,19 @@ namespace prog514_SalesData_Form
             decimal[] decSalesData;
             int intNumDays = 0;
             int intCount;
-            bool blnSuccess;
+            bool blnSuccess = false;
 
-            string strNumDays = Interaction.InputBox("For how many days" + "do you have sales?");
+            string strNumDays = Interaction.InputBox("For how many days " + "do you have sales?");
 
             if (!int.TryParse(strNumDays, out intNumDays))
             {
                 MessageBox.Show("You entered a non-numeric value", "Error");
+                return false;
             }
 
             if (intNumDays > 0)
             {
                 decSalesData = new decimal[intNumDays];
-
 
                 for (intCount = 0; intCount < intNumDays; intCount++)
                 {
@@ -38,8 +38,6 @@ namespace prog514_SalesData_Form
                     while (blnValid != true)
                     {
                         blnValid = decimal.TryParse(Interaction.InputBox("Enter the sales " + "for day " + (intCount + 1).ToString()), out decSalesData[intCount]);
-
-
                         if (blnValid != true)
                         {
                             MessageBox.Show("Please enter a valid number");
@@ -53,11 +51,55 @@ namespace prog514_SalesData_Form
             {
                 MessageBox.Show("You must enter at least " + "one day of sales");
             }
-
             return blnSuccess;
         }
-            
-        
+
+        private decimal GetTotal(decimal[] decValues)
+        {
+            decimal decTotal = 0;
+            int intCount;
+
+            for (intCount = 0; intCount < decValues.Length; intCount++)
+            {
+                decTotal += decValues[intCount];
+            }
+            return decTotal;
+        }
+
+        private decimal GetAverage(decimal[] decValues)
+        {
+            return GetTotal(decValues) / decValues.Length;
+        }
+
+        private decimal GetHighest(decimal[] decValues)
+        {
+            int intCount;
+            decimal decHighest = decValues[0];
+
+            for (intCount = 1; intCount < decValues.Length; intCount++)
+            {
+                if (decValues[intCount] > decHighest) {
+                    decHighest =decValues[intCount];
+                }
+            }
+            return decHighest;
+        }
+
+        private decimal GetLowest(decimal[] decValues)
+        {
+            int intCount;
+            decimal decLowest = decValues[0];
+
+            for (intCount = 1; intCount < decValues.Length; intCount++)
+            {
+                if (decValues[intCount] > decLowest)
+                {
+                    decLowest = decValues[intCount];
+                }
+            }
+            return decLowest;
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -65,7 +107,24 @@ namespace prog514_SalesData_Form
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            decimal[] decSales = null;
+            decimal decTotal;
+            decimal decAverage;
+            decimal decHighest;
+            decimal decLowest;
+
+            if (GetSalesData(ref decSales))
+            {
+                decTotal = GetTotal(decSales);
+                decAverage = GetAverrage(decSales);
+                decHighest = GetHighest(decSales);
+                decLowest = GetLowest(decSales);
+
+                label5.Text = decTotal.ToString("$.00");
+                label6.Text = decAverage.ToString("$.00");
+                label7.Text = decHighest.ToString("$.00");
+                label8.Text = decLowest.ToString("$.00");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
