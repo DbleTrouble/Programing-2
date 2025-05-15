@@ -116,7 +116,7 @@ namespace prog514_SalesData_Form
             if (GetSalesData(ref decSales))
             {
                 decTotal = GetTotal(decSales);
-                decAverage = GetAverrage(decSales);
+                decAverage = GetAverage(decSales);
                 decHighest = GetHighest(decSales);
                 decLowest = GetLowest(decSales);
 
