@@ -19,7 +19,9 @@ namespace Final_Programing_2_Project
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Notesheet ns = new Notesheet();
+            ns.Show();
+            this.Hide();
         }
     }
 }
