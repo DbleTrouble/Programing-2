@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListDemo", "ListDemo\ListDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrInterview 8", "StrInterview 8\StrInterview 8.csproj", "{BA9E319B-2677-44BA-A2C5-E463807A6FC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrInterview 18", "StrInterview 18\StrInterview 18.csproj", "{27237AAF-37D8-4D8C-B823-E25B9A1FB4B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{BA9E319B-2677-44BA-A2C5-E463807A6FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA9E319B-2677-44BA-A2C5-E463807A6FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA9E319B-2677-44BA-A2C5-E463807A6FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27237AAF-37D8-4D8C-B823-E25B9A1FB4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27237AAF-37D8-4D8C-B823-E25B9A1FB4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27237AAF-37D8-4D8C-B823-E25B9A1FB4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27237AAF-37D8-4D8C-B823-E25B9A1FB4B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
