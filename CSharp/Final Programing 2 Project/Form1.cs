@@ -21,7 +21,7 @@ namespace Final_Programing_2_Project
 
         public void GetSettings() 
         {
-            string project = Properties.Settings.Default.Name;
+            // string project = Properties.Settings.Default.Name;
             MessageBox.Show(Properties.Settings.Default.Name);
 
            

@@ -40,5 +40,45 @@ namespace Final_Programing_2_Project
             MessageBox.Show(Properties.Settings.Default.Name);
         }
 
+        private void redToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Red;
+        }
+
+        private void yellowToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Yellow;
+        }
+
+        private void blueToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Blue;
+        }
+
+        private void greenToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Green;
+        }
+
+        private void orangeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Orange;
+        }
+
+        private void purpleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Purple;
+        }
+
+        private void blackToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            textBox1.ForeColor = Color.Black;
+        }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            textBox1.BackColor = Color.Red;
+        }
+
     }
 }
