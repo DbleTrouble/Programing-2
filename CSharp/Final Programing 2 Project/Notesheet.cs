@@ -16,5 +16,29 @@ namespace Final_Programing_2_Project
         {
             InitializeComponent();
         }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            
+            SaveSetting();
+        }
+
+        private void toolStripLabel2_Click(object sender, EventArgs e)
+        {
+            Main main = new Main();
+            main.Show();
+            this.Close();
+        }
+
+        
+        public void SaveSetting() 
+        {
+            Properties.Settings.Default.Name = txtTitle.Text;
+
+            Properties.Settings.Default.Save();
+            
+            MessageBox.Show(Properties.Settings.Default.Name);
+        }
+
     }
 }
