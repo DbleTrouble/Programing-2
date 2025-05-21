@@ -2,7 +2,10 @@
 <SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Final_Programing_2_Project.Properties" GeneratedClassName="Settings">
   <Profiles />
   <Settings>
-    <Setting Name="Name" Type="System.String" Scope="User">
+    <Setting Name="NoteTitle" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="NoteText" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
   </Settings>

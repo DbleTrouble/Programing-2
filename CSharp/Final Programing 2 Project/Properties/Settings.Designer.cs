@@ -26,12 +26,24 @@ namespace Final_Programing_2_Project.Properties {
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string Name {
+        public string NoteTitle {
             get {
-                return ((string)(this["Name"]));
+                return ((string)(this["NoteTitle"]));
             }
             set {
-                this["Name"] = value;
+                this["NoteTitle"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string NoteText {
+            get {
+                return ((string)(this["NoteText"]));
+            }
+            set {
+                this["NoteText"] = value;
             }
         }
     }

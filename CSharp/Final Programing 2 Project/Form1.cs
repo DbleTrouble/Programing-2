@@ -12,17 +12,19 @@ namespace Final_Programing_2_Project
 {
     public partial class Main : Form
     {
-        
-        
+
+        Notesheet ns;
         public Main()
         {
-            InitializeComponent();
+            InitializeComponent(); 
+            ns = new Notesheet(this);
+
         }
 
         public void GetSettings() 
         {
             // string project = Properties.Settings.Default.Name;
-            MessageBox.Show(Properties.Settings.Default.Name);
+            MessageBox.Show(Properties.Settings.Default.NoteTitle);
 
            
         }
@@ -34,7 +36,6 @@ namespace Final_Programing_2_Project
 
         private void newproject_Click(object sender, EventArgs e)
         {
-            Notesheet ns = new Notesheet();
             ns.Show();
             this.Hide();
         }
@@ -47,6 +48,8 @@ namespace Final_Programing_2_Project
         private void loadproject_Click(object sender, EventArgs e)
         {
             GetSettings();
+            ns.UpdateText(Properties.Settings.Default.NoteTitle,Properties.Settings.Default.NoteText);
+            ns.Show();
         }
     }
 }
