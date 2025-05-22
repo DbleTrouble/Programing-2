@@ -18,17 +18,8 @@ namespace Final_Programing_2_Project
         {
             InitializeComponent(); 
             ns = new Notesheet(this);
-
         }
-
-        public void GetSettings() 
-        {
-            // string project = Properties.Settings.Default.Name;
-            MessageBox.Show(Properties.Settings.Default.NoteTitle);
-
-           
-        }
-            
+         
         private void button1_Click(object sender, EventArgs e)
         {
            
@@ -47,7 +38,6 @@ namespace Final_Programing_2_Project
 
         private void loadproject_Click(object sender, EventArgs e)
         {
-            GetSettings();
             ns.UpdateText(Properties.Settings.Default.NoteTitle,Properties.Settings.Default.NoteText);
             ns.Show();
         }
