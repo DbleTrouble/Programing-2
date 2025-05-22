@@ -19,12 +19,12 @@ namespace Final_Programing_2_Project
             InitializeComponent();
         }
 
-        private void toolStripLabel1_Click(object sender, EventArgs e)
+        public void toolStripLabel1_Click(object sender, EventArgs e)
         {
             SaveSetting();
         }
 
-        private void toolStripLabel2_Click(object sender, EventArgs e)
+        public void toolStripLabel2_Click(object sender, EventArgs e)
         {
             myparent.Show();
             this.Hide();
@@ -35,6 +35,7 @@ namespace Final_Programing_2_Project
             Properties.Settings.Default.NoteTitle = txtTitle.Text;
             Properties.Settings.Default.NoteText = textBox1.Text;
             Properties.Settings.Default.Save();
+
         }
 
         public void StoreText()

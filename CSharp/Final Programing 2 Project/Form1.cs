@@ -12,6 +12,7 @@ namespace Final_Programing_2_Project
 {
     public partial class Main : Form
     {
+        private string currentNotePath = null;
 
         Notesheet ns;
         public Main()
@@ -19,14 +20,17 @@ namespace Final_Programing_2_Project
             InitializeComponent(); 
             ns = new Notesheet(this);
         }
-         
-        private void button1_Click(object sender, EventArgs e)
+
+        private void NewNote()
         {
-           
+            textBox1.Clear();
+            currentNotePath = null;
+            
         }
 
         private void newproject_Click(object sender, EventArgs e)
         {
+            NewNote();
             ns.Show();
             this.Hide();
         }
