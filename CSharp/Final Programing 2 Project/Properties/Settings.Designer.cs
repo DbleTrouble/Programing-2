@@ -46,16 +46,5 @@ namespace Final_Programing_2_Project.Properties {
                 this["NoteText"] = value;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        public global::System.Collections.Generic.List<System.String> ListNotes {
-            get {
-                return ((global::System.Collections.Generic.List<System.String>)(this["ListNotes"]));
-            }
-            set {
-                this["ListNotes"] = value;
-            }
-        }
     }
 }

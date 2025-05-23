@@ -13,6 +13,8 @@ namespace Final_Programing_2_Project
     public partial class Notesheet : Form
     {
         Form myparent;
+        Dictionary<string, string> ListOfNotes = new Dictionary<string, string>();
+
         public Notesheet(Form myparent)
         {
             this.myparent = myparent;
@@ -36,14 +38,9 @@ namespace Final_Programing_2_Project
             Properties.Settings.Default.NoteText = textBox1.Text;
             Properties.Settings.Default.Save();
 
+            ListOfNotes.Add(txtTitle.Text, textBox1.Text);
         }
 
-        public void StoreText()
-        {
-            List<string> savedtext = new List<string>();
-
-
-        }
         public void UpdateText(string title, string text)
         {
             txtTitle.Text = title;
