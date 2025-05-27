@@ -13,7 +13,18 @@ namespace Final_Programing_2_Project
     public partial class Notesheet : Form
     {
         Form myparent;
-        Dictionary<string, string> ListOfNotes = new Dictionary<string, string>();
+        public void CollectionOfNotes()
+        {
+            /*Dictionary<string, string> ListOfNotes = new Dictionary<string, string>(); // note title, note text\
+            ListOfNotes.Add(txtTitle.Text, textBox1.Text);
+            if (!ListOfNotes.ContainsKey(txtTitle.Text))
+            {
+                ListOfNotes.Add(txtTitle.Text, textBox1.Text);
+            }*/
+
+            var ListOfNotes = new List<string> { };
+        }
+        
 
         public Notesheet(Form myparent)
         {
@@ -23,7 +34,7 @@ namespace Final_Programing_2_Project
 
         public void toolStripLabel1_Click(object sender, EventArgs e)
         {
-            SaveSetting();
+            //SaveSetting();
         }
 
         public void toolStripLabel2_Click(object sender, EventArgs e)
@@ -32,14 +43,12 @@ namespace Final_Programing_2_Project
             this.Hide();
         }
 
-        public void SaveSetting() 
-        {
-            Properties.Settings.Default.NoteTitle = txtTitle.Text;
-            Properties.Settings.Default.NoteText = textBox1.Text;
-            Properties.Settings.Default.Save();
-
-            ListOfNotes.Add(txtTitle.Text, textBox1.Text);
-        }
+        // public void SaveSetting() 
+        // {
+            // Properties.Settings.Default.NoteTitle = txtTitle.Text;
+            // Properties.Settings.Default.NoteText = textBox1.Text;
+            // Properties.Settings.Default.Save();
+        //}
 
         public void UpdateText(string title, string text)
         {
