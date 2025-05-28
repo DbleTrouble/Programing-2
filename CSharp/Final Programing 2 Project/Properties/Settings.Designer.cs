@@ -25,10 +25,9 @@ namespace Final_Programing_2_Project.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string NoteTitle {
+        public global::System.Collections.Specialized.StringCollection NoteTitle {
             get {
-                return ((string)(this["NoteTitle"]));
+                return ((global::System.Collections.Specialized.StringCollection)(this["NoteTitle"]));
             }
             set {
                 this["NoteTitle"] = value;
@@ -37,10 +36,9 @@ namespace Final_Programing_2_Project.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string NoteText {
+        public global::System.Collections.Specialized.StringCollection NoteText {
             get {
-                return ((string)(this["NoteText"]));
+                return ((global::System.Collections.Specialized.StringCollection)(this["NoteText"]));
             }
             set {
                 this["NoteText"] = value;

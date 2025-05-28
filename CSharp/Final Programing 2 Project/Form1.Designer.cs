@@ -34,10 +34,10 @@
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.filebutton = new System.Windows.Forms.ToolStripDropDownButton();
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loadproject = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newproject = new System.Windows.Forms.ToolStripMenuItem();
             this.exit = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,17 +89,12 @@
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loadproject});
+            this.toolStripComboBox1});
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
             this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.loadToolStripMenuItem.Text = "Load";
-            // 
-            // loadproject
-            // 
-            this.loadproject.Name = "loadproject";
-            this.loadproject.Size = new System.Drawing.Size(152, 22);
-            this.loadproject.Text = "Project";
-            this.loadproject.Click += new System.EventHandler(this.loadproject_Click);
+            this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
+            this.loadToolStripMenuItem.MouseHover += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
             // newToolStripMenuItem
             // 
@@ -122,6 +117,12 @@
             this.exit.Size = new System.Drawing.Size(152, 22);
             this.exit.Text = "Exit";
             this.exit.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
+            // toolStripComboBox1
+            // 
+            this.toolStripComboBox1.Name = "toolStripComboBox1";
+            this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
+            this.toolStripComboBox1.Click += new System.EventHandler(this.toolStripComboBox1_Click);
             // 
             // Main
             // 
@@ -148,10 +149,10 @@
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripDropDownButton filebutton;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem loadproject;
         private System.Windows.Forms.ToolStripMenuItem newToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newproject;
         private System.Windows.Forms.ToolStripMenuItem exit;
+        private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
     }
 }
 
