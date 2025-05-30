@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Collections.Specialized;
+using System.Configuration;
+using System.IO;
 
 namespace Final_Programing_2_Project
 {
@@ -30,15 +33,70 @@ namespace Final_Programing_2_Project
             myparent.Show();
             this.Hide();
         }
+        public void SaveSetting()
+        {
+            try
+            {
+                var titles = new System.Collections.Specialized.StringCollection();
+                if (!string.IsNullOrEmpty(txtTitle.Text))
+                    titles.Add(txtTitle.Text);
+                Properties.Settings.Default.NoteTitle = titles;
 
-        public void SaveSetting() 
+                var texts = new System.Collections.Specialized.StringCollection();
+                if (!string.IsNullOrEmpty(textBox1.Text))
+                    texts.Add(textBox1.Text);
+                Properties.Settings.Default.NoteText = texts;
+
+                Properties.Settings.Default.Save();
+            }
+            catch (ConfigurationErrorsException ex)
+            {
+                MessageBox.Show(string.Format("Settings file is corrupted: {0}", ex.Message));
+                ResetUserSettings();
+            }
+        }
+
+        public void ResetUserSettings()
+        {
+            try
+            {
+                // Access setting to trigger exception and get file path
+                var titles = Properties.Settings.Default.NoteTitle;
+            }
+            catch (ConfigurationErrorsException ex)
+            {
+                string configPath = ex.Filename;
+                if (File.Exists(configPath))
+                {
+                    File.Delete(configPath);
+                }
+
+                Properties.Settings.Default.Reset();
+                Properties.Settings.Default.Save();
+
+                // Optionally clear your UI controls after reset
+                txtTitle.Text = string.Empty;
+                textBox1.Text = string.Empty;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(string.Format("Settings file is corrupted: {0}", ex.Message));
+            }
+        }
+
+
+
+
+
+        /*public void SaveSetting() 
         {
             Properties.Settings.Default.NoteTitle = new System.Collections.Specialized.StringCollection();
             Properties.Settings.Default.NoteTitle.Add(txtTitle.Text);
+            Properties.Settings.Default.NoteText = new System.Collections.Specialized.StringCollection();
             Properties.Settings.Default.NoteText.Add(textBox1.Text);
             Properties.Settings.Default.Save();
         }
-
+        */
         public void UpdateText(string title, string text)
         {
             txtTitle.Text = title;
