@@ -24,22 +24,21 @@ namespace Final_Programing_2_Project
             ns = new Notesheet(this);
         }
 
-        private void newproject_Click(object sender, EventArgs e)
+        private void NewNote()
         {
+            ns.ClearNote();  // We'll create this method in Notesheet form
             ns.Show();
             this.Hide();
+        }
+
+        private void newproject_Click(object sender, EventArgs e)
+        {
+            NewNote();
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void loadproject_Click(object sender, EventArgs e)
-        {
-            
-            //ns.UpdateText(Properties.Settings.Default.NoteTitle[0],Properties.Settings.Default.NoteText[0]);
-            //ns.Show();
         }
 
         private void ResetUserSettings()
@@ -113,6 +112,13 @@ namespace Final_Programing_2_Project
                 ResetUserSettings();
                 toolStripComboBox1.Items.Clear();
             }
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            int index = toolStripComboBox1.SelectedIndex;
+            ns.UpdateText(Properties.Settings.Default.NoteTitle[index], Properties.Settings.Default.NoteText[index]);
+            ns.Show();
         }
 
         /*private void loadToolStripMenuItem_Click(object sender, EventArgs e)

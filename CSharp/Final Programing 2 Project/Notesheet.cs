@@ -23,28 +23,20 @@ namespace Final_Programing_2_Project
             InitializeComponent();
         }
 
-        public void toolStripLabel1_Click(object sender, EventArgs e)
-        {
-            SaveSetting();
-        }
-
-        public void toolStripLabel2_Click(object sender, EventArgs e)
-        {
-            myparent.Show();
-            this.Hide();
-        }
         public void SaveSetting()
         {
             try
             {
-                var titles = new System.Collections.Specialized.StringCollection();
-                if (!string.IsNullOrEmpty(txtTitle.Text))
-                    titles.Add(txtTitle.Text);
-                Properties.Settings.Default.NoteTitle = titles;
+                var titles = Properties.Settings.Default.NoteTitle ?? new System.Collections.Specialized.StringCollection();
+                var texts = Properties.Settings.Default.NoteText ?? new System.Collections.Specialized.StringCollection();
 
-                var texts = new System.Collections.Specialized.StringCollection();
+                if (!string.IsNullOrEmpty(txtTitle.Text) && !titles.Contains(txtTitle.Text))
+                    titles.Add(txtTitle.Text);
+
                 if (!string.IsNullOrEmpty(textBox1.Text))
                     texts.Add(textBox1.Text);
+
+                Properties.Settings.Default.NoteTitle = titles;
                 Properties.Settings.Default.NoteText = texts;
 
                 Properties.Settings.Default.Save();
@@ -84,19 +76,26 @@ namespace Final_Programing_2_Project
             }
         }
 
-
-
-
-
-        /*public void SaveSetting() 
+        public void ClearNote()
         {
-            Properties.Settings.Default.NoteTitle = new System.Collections.Specialized.StringCollection();
-            Properties.Settings.Default.NoteTitle.Add(txtTitle.Text);
-            Properties.Settings.Default.NoteText = new System.Collections.Specialized.StringCollection();
-            Properties.Settings.Default.NoteText.Add(textBox1.Text);
-            Properties.Settings.Default.Save();
+            txtTitle.Text = "Untitled Notesheet";
+            textBox1.Text = "";
+            textBox1.ForeColor = Color.Black;
+            textBox1.BackColor = Color.White;
+            textBox1.Font = new Font("Microsoft Sans Serif", 8, textBox1.Font.Style);
         }
-        */
+
+        public void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+            SaveSetting();
+        }
+
+        public void toolStripLabel2_Click(object sender, EventArgs e)
+        {
+            myparent.Show();
+            this.Hide();
+        }
+        
         public void UpdateText(string title, string text)
         {
             txtTitle.Text = title;
