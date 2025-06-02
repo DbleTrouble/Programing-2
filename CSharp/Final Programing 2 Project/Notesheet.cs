@@ -21,6 +21,7 @@ namespace Final_Programing_2_Project
         {
             this.myparent = myparent;
             InitializeComponent();
+
         }
 
         public void SaveSetting()
@@ -29,17 +30,52 @@ namespace Final_Programing_2_Project
             {
                 var titles = Properties.Settings.Default.NoteTitle ?? new System.Collections.Specialized.StringCollection();
                 var texts = Properties.Settings.Default.NoteText ?? new System.Collections.Specialized.StringCollection();
+                var backColors = Properties.Settings.Default.NoteBackColors ?? new System.Collections.Specialized.StringCollection();
+                var foreColors = Properties.Settings.Default.NoteForeColors ?? new System.Collections.Specialized.StringCollection();
+                var fonts = Properties.Settings.Default.NoteFonts ?? new System.Collections.Specialized.StringCollection();
 
-                if (!string.IsNullOrEmpty(txtTitle.Text) && !titles.Contains(txtTitle.Text))
-                    titles.Add(txtTitle.Text);
+                string title = txtTitle.Text;
+                string content = textBox1.Text;
 
-                if (!string.IsNullOrEmpty(textBox1.Text))
-                    texts.Add(textBox1.Text);
+                if (!string.IsNullOrWhiteSpace(title) && !string.IsNullOrWhiteSpace(content))
+                {
+                    int existingIndex = titles.IndexOf(title);
+                    var fontConverter = new FontConverter();
 
-                Properties.Settings.Default.NoteTitle = titles;
-                Properties.Settings.Default.NoteText = texts;
+                    string backColorString = ColorTranslator.ToHtml(textBox1.BackColor);
+                    string foreColorString = ColorTranslator.ToHtml(textBox1.ForeColor);
+                    string fontString = fontConverter.ConvertToString(textBox1.Font);
 
-                Properties.Settings.Default.Save();
+                    if (existingIndex >= 0)
+                    {
+                        // Overwrite existing
+                        texts[existingIndex] = content;
+                        backColors[existingIndex] = backColorString;
+                        foreColors[existingIndex] = foreColorString;
+                        fonts[existingIndex] = fontString;
+                    }
+                    else
+                    {
+                        // Add new
+                        titles.Add(title);
+                        texts.Add(content);
+                        backColors.Add(backColorString);
+                        foreColors.Add(foreColorString);
+                        fonts.Add(fontString);
+                    }
+
+                    Properties.Settings.Default.NoteTitle = titles;
+                    Properties.Settings.Default.NoteText = texts;
+                    Properties.Settings.Default.NoteBackColors = backColors;
+                    Properties.Settings.Default.NoteForeColors = foreColors;
+                    Properties.Settings.Default.NoteFonts = fonts;
+
+                    Properties.Settings.Default.Save();
+                }
+                else
+                {
+                    MessageBox.Show("Title and content must not be empty.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             catch (ConfigurationErrorsException ex)
             {
@@ -47,6 +83,7 @@ namespace Final_Programing_2_Project
                 ResetUserSettings();
             }
         }
+
 
         public void ResetUserSettings()
         {
@@ -96,10 +133,30 @@ namespace Final_Programing_2_Project
             this.Hide();
         }
         
-        public void UpdateText(string title, string text)
+        public void UpdateText(string title, string text, string backColorString = null, string foreColorString = null, string fontString = null)
         {
             txtTitle.Text = title;
             textBox1.Text = text;
+
+            if (!string.IsNullOrEmpty(backColorString))
+                textBox1.BackColor = ColorTranslator.FromHtml(backColorString);
+
+            if (!string.IsNullOrEmpty(foreColorString))
+                textBox1.ForeColor = ColorTranslator.FromHtml(foreColorString);
+
+            if (!string.IsNullOrEmpty(fontString))
+            {
+                var fontConverter = new FontConverter();
+                try
+                {
+                    Font font = (Font)fontConverter.ConvertFromString(fontString);
+                    textBox1.Font = font;
+                }
+                catch
+                {
+                    // Fallback to default font if conversion fails
+                }
+            }
         }
 
         // Text Color

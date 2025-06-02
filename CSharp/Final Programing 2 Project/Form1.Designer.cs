@@ -35,10 +35,11 @@
             this.filebutton = new System.Windows.Forms.ToolStripDropDownButton();
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripComboBox1 = new System.Windows.Forms.ToolStripComboBox();
+            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newproject = new System.Windows.Forms.ToolStripMenuItem();
             this.exit = new System.Windows.Forms.ToolStripMenuItem();
-            this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.deleteAllNotesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,6 +81,7 @@
             this.filebutton.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.loadToolStripMenuItem,
             this.newToolStripMenuItem,
+            this.deleteAllNotesToolStripMenuItem,
             this.exit});
             this.filebutton.Image = ((System.Drawing.Image)(resources.GetObject("filebutton.Image")));
             this.filebutton.ImageTransparentColor = System.Drawing.Color.Magenta;
@@ -93,7 +95,7 @@
             this.toolStripComboBox1,
             this.openToolStripMenuItem});
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.loadToolStripMenuItem.Text = "Load";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             this.loadToolStripMenuItem.MouseHover += new System.EventHandler(this.loadToolStripMenuItem_Click);
@@ -103,12 +105,19 @@
             this.toolStripComboBox1.Name = "toolStripComboBox1";
             this.toolStripComboBox1.Size = new System.Drawing.Size(121, 23);
             // 
+            // openToolStripMenuItem
+            // 
+            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            // 
             // newToolStripMenuItem
             // 
             this.newToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newproject});
             this.newToolStripMenuItem.Name = "newToolStripMenuItem";
-            this.newToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.newToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
             this.newToolStripMenuItem.Text = "New";
             // 
             // newproject
@@ -121,16 +130,16 @@
             // exit
             // 
             this.exit.Name = "exit";
-            this.exit.Size = new System.Drawing.Size(152, 22);
+            this.exit.Size = new System.Drawing.Size(158, 22);
             this.exit.Text = "Exit";
             this.exit.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
-            // openToolStripMenuItem
+            // deleteAllNotesToolStripMenuItem
             // 
-            this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.openToolStripMenuItem.Text = "Open";
-            this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
+            this.deleteAllNotesToolStripMenuItem.Name = "deleteAllNotesToolStripMenuItem";
+            this.deleteAllNotesToolStripMenuItem.Size = new System.Drawing.Size(158, 22);
+            this.deleteAllNotesToolStripMenuItem.Text = "Delete All Notes";
+            this.deleteAllNotesToolStripMenuItem.Click += new System.EventHandler(this.deleteAllNotesToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -162,6 +171,7 @@
         private System.Windows.Forms.ToolStripMenuItem exit;
         private System.Windows.Forms.ToolStripComboBox toolStripComboBox1;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem deleteAllNotesToolStripMenuItem;
     }
 }
 

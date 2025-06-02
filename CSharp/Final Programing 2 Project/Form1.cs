@@ -117,8 +117,52 @@ namespace Final_Programing_2_Project
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
         {
             int index = toolStripComboBox1.SelectedIndex;
-            ns.UpdateText(Properties.Settings.Default.NoteTitle[index], Properties.Settings.Default.NoteText[index]);
-            ns.Show();
+            var titles = Properties.Settings.Default.NoteTitle;
+            var texts = Properties.Settings.Default.NoteText;
+            var backColors = Properties.Settings.Default.NoteBackColors;
+            var foreColors = Properties.Settings.Default.NoteForeColors;
+            var fonts = Properties.Settings.Default.NoteFonts;
+
+            if (index >= 0 && titles != null && texts != null &&
+                backColors != null && foreColors != null && fonts != null &&
+                index < titles.Count && index < texts.Count &&
+                index < backColors.Count && index < foreColors.Count && index < fonts.Count)
+            {
+                ns.UpdateText(
+                    titles[index], texts[index],
+                    backColors[index], foreColors[index], fonts[index]);
+                ns.Show();
+            }
+            else
+            {
+                MessageBox.Show("Invalid note selection.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        public void DeleteAllNotes()
+        {
+            var result = MessageBox.Show("Are you sure you want to delete all saved notes?",
+                                 "Confirm Deletion",
+                                 MessageBoxButtons.YesNo,
+                                 MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                // Clear saved data
+                Properties.Settings.Default.NoteTitle = new System.Collections.Specialized.StringCollection();
+                Properties.Settings.Default.NoteText = new System.Collections.Specialized.StringCollection();
+                Properties.Settings.Default.Save();
+
+                // Clear combo box
+                toolStripComboBox1.Items.Clear();
+
+                MessageBox.Show("All notes have been deleted.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private void deleteAllNotesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DeleteAllNotes();
         }
 
         /*private void loadToolStripMenuItem_Click(object sender, EventArgs e)
