@@ -21,7 +21,6 @@ namespace Final_Programing_2_Project
         {
             this.myparent = myparent;
             InitializeComponent();
-
         }
 
         public void SaveSetting()
@@ -75,6 +74,7 @@ namespace Final_Programing_2_Project
                     Properties.Settings.Default.NoteFonts = fonts;
 
                     Properties.Settings.Default.Save();
+                    MessageBox.Show("Your Note Sheet has been saved");
                 }
                 else
                 {
