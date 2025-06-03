@@ -46,7 +46,11 @@ namespace Final_Programing_2_Project
                     string foreColorString = ColorTranslator.ToHtml(textBox1.ForeColor);
                     string fontString = fontConverter.ConvertToString(textBox1.Font);
 
-                    if (existingIndex >= 0)
+                    if (existingIndex >= 0 &&
+                        existingIndex < texts.Count &&
+                        existingIndex < backColors.Count &&
+                        existingIndex < foreColors.Count &&
+                        existingIndex < fonts.Count)
                     {
                         // Overwrite existing
                         texts[existingIndex] = content;
@@ -115,6 +119,12 @@ namespace Final_Programing_2_Project
 
         public void ClearNote()
         {
+            if (txtTitle == null || textBox1 == null)
+            {
+                MessageBox.Show("Form controls not initialized properly.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
             txtTitle.Text = "Untitled Notesheet";
             textBox1.Text = "";
             textBox1.ForeColor = Color.Black;

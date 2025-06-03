@@ -44,5 +44,38 @@ namespace Final_Programing_2_Project.Properties {
                 this["NoteText"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Specialized.StringCollection NoteForeColors {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["NoteForeColors"]));
+            }
+            set {
+                this["NoteForeColors"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Specialized.StringCollection NoteBackColors {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["NoteBackColors"]));
+            }
+            set {
+                this["NoteBackColors"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Specialized.StringCollection NoteFonts {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["NoteFonts"]));
+            }
+            set {
+                this["NoteFonts"] = value;
+            }
+        }
     }
 }
